@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +23,10 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* Tokens rápidos */
+:root{
+  --p:#1A73E8; --bg:#F8FAFC; --text:#0F172A; --muted:#94A3B8;
 }
+body{ color: var(--text); background: var(--bg); }
